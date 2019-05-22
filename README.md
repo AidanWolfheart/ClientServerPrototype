@@ -1,9 +1,9 @@
 # Building
 
-To build, use Visual Studio (2017). Included solutions should have the settings for headers and libraries, 
-otherwise:
-Both should have [$(ProjectDir)\include] under Settings->C/C++->General->Additional Include Directories
-and [$(ProjectDir)\lib] under Settings->Linker->General->Additional Library Directories
+To build, use Visual Studio (2017). Included solutions should have the settings for headers and libraries, otherwise:
+Both should have:
+- [$(ProjectDir)\include] under Settings->C/C++->General->Additional Include Directories 
+- [$(ProjectDir)\lib] under Settings->Linker->General->Additional Library Directories
 
 ClientServerProto should also include [libssl.lib;libcrypto.lib] in Linker->Input->Additional Dependencies
 
