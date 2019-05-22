@@ -1,5 +1,8 @@
 /*
 * Author: Kiril Chomaniuk
+* Credits given to https://bitbucket.org/sloankelly/youtube-source-repository/src/master/cpp/networking/
+* and https://docs.microsoft.com/en-us/windows/desktop/winsock/getting-started-with-winsock
+* for tutorials and sample code
 */
 
 #include "pch.h"
